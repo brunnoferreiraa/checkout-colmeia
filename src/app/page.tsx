@@ -1083,14 +1083,11 @@ export default function CheckoutExperience() {
       <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-4 py-10 sm:px-6 lg:px-8">
         <header className="flex flex-col gap-4 border-b border-border pb-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-              Checkout Mockado
-            </p>
             <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Colmeia Coffee Store
+              Colmeia Checkout
             </h1>
             <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
-              Fluxo completo de checkout com autenticação simulada, catálogo, carrinho e pagamento via Pix, Cartão ou Boleto.
+              Fluxo completo de checkout com autenticação, catálogo, carrinho e pagamento via Pix, Cartão ou Boleto.
             </p>
           </div>
           {authUser ? (
