@@ -13,11 +13,24 @@ O projeto é construído com as seguintes tecnologias principais:
 **1. Instalar Dependências**
 
 ```bash
+# Se usar npm
+npm install
+
+# Se usar yarn
+yarn install
+
+```bash
 # Use o gerenciador de pacotes que preferir (ex: pnpm)
 pnpm install
 ```
 
 **2. Iniciar o Servidor de Desenvolvimento**
+
+# Se usar npm
+npm run dev
+
+# Se usar yarn
+yarn dev
 
 ```bash
 pnpm dev
